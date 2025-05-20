@@ -1,5 +1,5 @@
-
-print(f"Bem-vindo à loja de Açaí e Cupuaçu! Desenvolvido por Ruan Paixão")
+nome = input("Inserir o nome e sobrenome do cadastrador: ")
+print(f"Bem-vindo à loja de Açaí e Cupuaçu! Desenvolvido por {nome}")
 
 precos = {
     "CP": {"P": 9, "M": 14, "G": 18},
